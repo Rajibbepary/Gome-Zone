@@ -38,4 +38,27 @@
         font-size: 3rem;
     }
 
+    /* Gamer-section-responsive */
+    .Gamer-section{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .gamer-right, .gamer-let{
+        width: 100%;
+    }
+
+    .gamer-let img{
+        width: 100%;
+    }
+    .gamer-right{
+        border: 1px solid red;
+        text-align: center;
+    }
+    .gamer-h1{
+        font-size: 2rem;
+        margin: auto;
+    }
+    .gamer-p1, .gamer-p2, .gamer-btn{
+        margin-bottom: 20px;
+    }
 }
