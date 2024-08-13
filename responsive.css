@@ -1,0 +1,41 @@
+
+
+@media screen and (max-width:576px){
+    .nav-bar,
+    .nav-contant > ul{
+        flex-direction: column;
+    }
+    .nav-btn{
+        margin-top: 10px;
+    }
+
+    
+    .header-main{
+        flex-direction: column-reverse;
+        margin-top: 20px;
+    }
+
+    .header-left, .header-right{
+        width: 90%;
+    }
+    .btn-parents{
+        display: flex;
+        /* justify-content: center;
+        align-items: center; */
+    }
+    .header-btn-1, .header-btn-2{
+        padding: 10px 20px;
+    }
+    .header-left >p{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .play{
+        font-size: 2rem;
+        margin-top: 20px; 
+    }
+    .goat{
+        font-size: 3rem;
+    }
+
+}
