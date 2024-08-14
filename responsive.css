@@ -51,7 +51,6 @@
         width: 100%;
     }
     .gamer-right{
-        border: 1px solid red;
         text-align: center;
     }
     .gamer-h1{
@@ -61,4 +60,82 @@
     .gamer-p1, .gamer-p2, .gamer-btn{
         margin-bottom: 20px;
     }
+
+    /* Play-Instantly-section */
+    .Play-Instantly-section{
+        flex-direction: column;
+    }
+    .play-div{
+        width: 90%;
+        text-align: center;
+    }
+    .play-div2{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .play-div2 img{
+        width:90%;
+        margin: auto;
+    }
+    .cat-img{
+        width: 120px;
+        height: 120px;
+    }
+
+
+    .play-game-parent{
+        flex-direction: column-reverse;
+    }
+
+    .play-child-2{
+        width:100% ;
+    }
+    .play-child-2 > h2{
+        font-size: 1rem;
+    }
+    .play-child-1{
+        width:100% ;
+        position: relative;
+    }
+    .play-child-1 > img{
+        width: 100%;
+        margin: auto;
+    }
+
+   .play-child-1 > .play-child-1-img {
+        width: 150px;
+        height: 180px;
+        position: absolute;
+        left: 220px;
+    }
+
+
+    .Careers-section{
+        flex-direction: column;
+        height: 100%;
+        /* width: 100%; */
+        margin-top: 100px;
+    }
+    .Careers-parent{
+        width: 100%;
+        /* margin: 0; */
+    }
+    .Careers-img{
+        width: 100%;
+    }
+    .Careers-img img{
+        width: 100%;
+    }
+    .Careers-btn{
+        /* width: 50%; */
+        padding: 10px 20px;
+        margin-top: 20px;
+    }
+    .Careers-child > div{
+        width: 100%;
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+
 }
