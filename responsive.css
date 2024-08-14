@@ -147,4 +147,35 @@
         margin: 0;
     } */
 
+    .footer-main{
+        width: 100%;
+    }
+
+    .footer-child-1 img{
+        width: 50px;
+    }
+    .footer-child-1 >h3{
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+    }
+
+    .footer-child-2{
+        display: grid;
+        grid-template-columns: 60px 60px 70px;
+        font-size: 10px;
+        gap: 0;
+    }
+    .footer-icon-section{
+        display: grid;
+        grid-template-columns: 50px 50px 50px;
+        gap: 20px 0px;
+        font-size: 1rem;
+    }
+
+    .footer-child-3{
+        display: grid;
+        grid-template-columns: 100px 100px;
+    }
+
 }
