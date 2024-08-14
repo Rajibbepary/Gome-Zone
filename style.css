@@ -415,3 +415,29 @@ html{
 .Careers-img > img {
     width: 100%;
 }
+
+.category-main{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px  0px;
+}
+.category-child{
+    display: flex;
+    align-items: center;
+}
+.category-child:hover{
+    border: 2px solid rgb(255, 66, 165);
+    border-radius: 20px;
+    color: #F948B2;
+}
+
+.category-child img{
+    width: 50px;
+}
+.category-child > p{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 10px;
+}

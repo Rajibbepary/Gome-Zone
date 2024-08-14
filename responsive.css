@@ -138,4 +138,13 @@
         font-size: 1rem;
     }
 
+    .category-main{
+        flex-direction: column;
+    }
+    /* .category-child{
+        flex-direction: row;
+        align-items: center;
+        margin: 0;
+    } */
+
 }
